@@ -15,7 +15,16 @@ What I want is a command line utility to clean up my working directory or any sp
 ## Usage
 Convert this script to an executable and stick it in your /usr/local/bin/ or other directory in your PATH.
 
+```shell
+ln -s /Users/luzk/Documents/Latex/clean-tex/clean-tex.py /usr/local/bin/latexclean
+chmod +x clean-tex.py
+latexclean
+```
+
+use `latexclean` instead
+
 ## Testing
+
 * Copy test folder to your computer
 * On command line type `clean-tex -r /path/to/test/file/` to see a list of all files recursively and optionally delete
 * Type `clean-tex /path/to/test/file/` to see a list of files only in top-level directory and optionally delete
