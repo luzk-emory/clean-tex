@@ -11,7 +11,7 @@ import argparse #docs: https://docs.python.org/3.4/library/argparse.html
 These are the file extentions you want to delete.
 Only add suffixes. No #file.tex prefixes. 
 """
-rm_ls = [".aux", ".log", ".synctex.gz", ".out", ".dvi", ".fdb_latexmk", ".fls", ".nav", ".snm", ".toc", ".xdv", ".bbl", ".blg"]
+rm_ls = [".aux", ".log", ".synctex.gz", ".out", ".dvi", ".fdb_latexmk", ".fls", ".nav", ".snm", ".toc", ".xdv", ".bbl", ".blg", ".cfg", ".bcf", ".run.xml"]
 
 # rm_ls = [".aux", ".log", ".synctex.gz", ".out", ".dvi", "~"]
 
